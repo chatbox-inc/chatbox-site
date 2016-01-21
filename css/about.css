@@ -177,6 +177,38 @@ a.btn-d:after {
     color: #fff;
     line-height: 30px; }
 
+.sns-twitter {
+  margin: 0 auto 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background: #6EA6DA;
+  position: relative; }
+  .sns-twitter a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+    line-height: 30px; }
+
+.sns-github {
+  margin: 0 auto 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background: #888;
+  position: relative; }
+  .sns-github a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+    line-height: 30px; }
+
 .category {
   background: url(../img/category_about.jpg); }
 

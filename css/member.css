@@ -177,53 +177,130 @@ a.btn-d:after {
     color: #fff;
     line-height: 30px; }
 
-.category {
-  background: url(../img/category_about.jpg); }
-
-#corporate .profile dl dt {
-  margin-bottom: 3px;
-  padding: 0 40px;
-  min-width: 150px;
-  height: 60px;
-  background: #eee;
+.sns-twitter {
+  margin: 0 auto 10px;
+  width: 30px;
+  height: 30px;
   text-align: center;
-  line-height: 60px; }
+  border-radius: 50%;
+  background: #6EA6DA;
+  position: relative; }
+  .sns-twitter a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+    line-height: 30px; }
 
-#corporate .profile dl dd {
-  margin-bottom: 3px;
-  padding-left: 20px;
-  line-height: 60px; }
+.sns-github {
+  margin: 0 auto 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background: #888;
+  position: relative; }
+  .sns-github a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+    line-height: 30px; }
 
-#access .detail {
-  padding-top: 20px; }
-  #access .detail .exterior {
-    margin: 0;
-    padding: 0; }
-    #access .detail .exterior img {
-      width: 100%;
-      height: 100%; }
+.category {
+  background: url(../img/category_member.jpg); }
 
-#access .info {
-  padding-right: 0; }
-  #access .info dl {
-    margin-bottom: 5em; }
-  #access .info dl dt {
-    margin-bottom: 1.3em;
-    height: 32px;
-    background-color: #eee;
-    position: relative; }
-    #access .info dl dt.map:before {
-      content: "\f041";
+#members .member .prf-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; }
+
+#members .member .prf dl {
+  margin-bottom: 2.2em; }
+  #members .member .prf dl.connection {
+    border-top: 1px solid #eee;
+    padding-top: 0.5em; }
+    #members .member .prf dl.connection a {
+      color: #807d7d;
+      text-decoration: none; }
+      #members .member .prf dl.connection a:hover {
+        color: #eee; }
+  #members .member .prf dl dt {
+    margin-bottom: 0.7em; }
+    #members .member .prf dl dt.name {
+      font-size: 2em;
+      margin-bottom: 0.3em; }
+    #members .member .prf dl dt.post {
+      padding-bottom: 0.3em;
+      border-bottom: 1px solid #eee;
+      font-size: 1.3em; }
+  #members .member .prf dl dd {
+    margin-bottom: 1em; }
+    #members .member .prf dl dd.name-en {
+      letter-spacing: 0.2em;
+      color: #807d7d; }
+    #members .member .prf dl dd.skill span {
+      margin-right: 0.5em;
+      padding: 0.5em 0.9em;
+      font-size: 0.9em;
+      color: #fff;
+      border-radius: 6px;
+      background: #c43832; }
+    #members .member .prf dl dd.detail {
+      line-height: 2em; }
+    #members .member .prf dl dd span.mail:before {
+      content: "\f0e0";
       font-family: FontAwesome;
-      font-size: 1.5em;
+      font-size: 1em;
       color: #807d7d;
       margin: 0 0.3em; }
-    #access .info dl dt.train:before {
-      content: "\f239";
+    #members .member .prf dl dd span.site:before {
+      content: "\f015";
       font-family: FontAwesome;
-      font-size: 1.5em;
+      font-size: 1.3em;
       color: #807d7d;
       margin: 0 0.3em; }
-  #access .info dl dd {
-    padding-top: 5px;
-    padding-left: 1.3em; }
+    #members .member .prf dl dd span.connection-site:before {
+      content: "\f0c1";
+      font-family: FontAwesome;
+      font-size: 1em;
+      color: #807d7d;
+      margin: 0 0.3em; }
+
+#members .member .prf dl.sns dd {
+  display: inline-block !important; }
+
+#members .portfolio h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #c43832;
+  font-size: 1.2em; }
+
+#join-us {
+  background: #eee; }
+  #join-us h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #c43832; }
+  #join-us .join-us {
+    margin: 3em;
+    border: 3px solid #c43832;
+    padding: 4em; }
+    #join-us .join-us h2 {
+      text-align: center;
+      font-size: 2em;
+      color: #c43832;
+      font-weight: bold; }
+    #join-us .join-us p {
+      padding: 2em;
+      text-align: center;
+      font-size: 2em;
+      color: #c43832;
+      font-size: 1.2em;
+      line-height: 3em; }
+    #join-us .join-us .btn-red {
+      margin: 0 auto;
+      padding: 0.6em 3em;
+      text-align: center; }
